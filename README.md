@@ -1,16 +1,16 @@
-# @boss/local-variables
+# @dolt/local-variables
 
 Saves a /local_data/_localvars file to the path provided in the constructor, can be extended to provide type safe local variables
 
 ## Installation
 ```sh
-npm install @boss/local-variables --save
+npm install @dolt/local-variables --save
 ```
 
 ## Usage example
 
 ```js
-import LocalVariables from '@boss/local-variables'
+import LocalVariables from '@dolt/local-variables'
 import myLogger from './myLogger'
 
 class MyAppLocalVariables extends LocalVariables {
